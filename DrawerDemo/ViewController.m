@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "BackBgViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[BackBgViewController alloc] init]];
+    
+    UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
+    
+    window.rootViewController = nav;
 }
 
 

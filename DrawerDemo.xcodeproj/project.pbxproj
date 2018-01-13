@@ -15,6 +15,8 @@
 		1819BDB32009DD5C00E81184 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819BDB22009DD5C00E81184 /* main.m */; };
 		1819BDBD2009DD5C00E81184 /* DrawerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819BDBC2009DD5C00E81184 /* DrawerDemoTests.m */; };
 		1819BDC82009DD5C00E81184 /* DrawerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819BDC72009DD5C00E81184 /* DrawerDemoUITests.m */; };
+		1819BDD72009DD8B00E81184 /* BackBgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819BDD62009DD8B00E81184 /* BackBgViewController.m */; };
+		1819BDDA2009DD9A00E81184 /* MenusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819BDD92009DD9A00E81184 /* MenusViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1819BDC32009DD5C00E81184 /* DrawerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1819BDC72009DD5C00E81184 /* DrawerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerDemoUITests.m; sourceTree = "<group>"; };
 		1819BDC92009DD5C00E81184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1819BDD52009DD8B00E81184 /* BackBgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackBgViewController.h; sourceTree = "<group>"; };
+		1819BDD62009DD8B00E81184 /* BackBgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackBgViewController.m; sourceTree = "<group>"; };
+		1819BDD82009DD9A00E81184 /* MenusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenusViewController.h; sourceTree = "<group>"; };
+		1819BDD92009DD9A00E81184 /* MenusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenusViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				1819BDA42009DD5C00E81184 /* AppDelegate.m */,
 				1819BDA62009DD5C00E81184 /* ViewController.h */,
 				1819BDA72009DD5C00E81184 /* ViewController.m */,
+				1819BDD52009DD8B00E81184 /* BackBgViewController.h */,
+				1819BDD62009DD8B00E81184 /* BackBgViewController.m */,
+				1819BDD82009DD9A00E81184 /* MenusViewController.h */,
+				1819BDD92009DD9A00E81184 /* MenusViewController.m */,
 				1819BDA92009DD5C00E81184 /* Main.storyboard */,
 				1819BDAC2009DD5C00E81184 /* Assets.xcassets */,
 				1819BDAE2009DD5C00E81184 /* LaunchScreen.storyboard */,
@@ -265,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1819BDDA2009DD9A00E81184 /* MenusViewController.m in Sources */,
 				1819BDA82009DD5C00E81184 /* ViewController.m in Sources */,
 				1819BDB32009DD5C00E81184 /* main.m in Sources */,
+				1819BDD72009DD8B00E81184 /* BackBgViewController.m in Sources */,
 				1819BDA52009DD5C00E81184 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
