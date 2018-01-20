@@ -23,6 +23,8 @@
     UIWindow *window = [[[UIApplication sharedApplication] delegate] window];
     
     window.rootViewController = nav;
+    
+    
 }
 
 
